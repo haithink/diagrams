@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T02:09:54.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="diuvHwmK5noguZxHTbny" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T02:11:09.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Q3zvsPqRqzGq86z9pz20" version="20.5.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="11169" background="none" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
         <mxCell id="oNJBq7v1mSASrG1cI6hb-70" value="R&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sup&gt;n&lt;/sup&gt;到R&lt;sup&gt;m&lt;/sup&gt;的线性变换&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-75">
           <mxGeometry y="4.615384615384616" width="119.99999999999999" height="30.76923076923077" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-73" value="满射&amp;lt;--&amp;gt;A的列生成R&lt;sup&gt;m&lt;/sup&gt;&lt;br&gt;单射&amp;lt;--&amp;gt;A的列线性无关" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-75">
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-73" value="满射&amp;lt;--&amp;gt;A的列生成R&lt;sup&gt;m&lt;/sup&gt;&lt;br&gt;&amp;nbsp;单射&amp;lt;--&amp;gt;A的列线性无关" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-75">
           <mxGeometry x="194.99999999999997" width="179.99999999999997" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oNJBq7v1mSASrG1cI6hb-72" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-75" source="oNJBq7v1mSASrG1cI6hb-70" target="oNJBq7v1mSASrG1cI6hb-73">
@@ -168,7 +168,7 @@
         <mxCell id="oNJBq7v1mSASrG1cI6hb-65" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-94" source="oNJBq7v1mSASrG1cI6hb-59" target="oNJBq7v1mSASrG1cI6hb-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-66" value="[T(e1) T(e2) ... T(en)]" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-94">
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-66" value="[&lt;font face=&quot;Georgia&quot;&gt;T(e&lt;sub&gt;1&lt;/sub&gt;) T(e&lt;sub&gt;2&lt;/sub&gt;) ... T(e&lt;sub&gt;n&lt;/sub&gt;)&lt;/font&gt;]" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-94">
           <mxGeometry x="468.01" width="134.66" height="45" as="geometry" />
         </mxCell>
         <mxCell id="oNJBq7v1mSASrG1cI6hb-67" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-94" source="oNJBq7v1mSASrG1cI6hb-64" target="oNJBq7v1mSASrG1cI6hb-66">
