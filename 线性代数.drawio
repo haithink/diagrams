@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T01:58:54.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GFJqbGqfDu-ry4yeuoPo" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T02:07:24.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PELbcj3xuz0Z6EVO6T6G" version="20.5.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="11169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="11169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,38 +89,96 @@
         <mxCell id="oNJBq7v1mSASrG1cI6hb-57" value="Ax=b当前仅当b是A的列的线性组合" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="330" y="130" width="200" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-60" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="1" source="oNJBq7v1mSASrG1cI6hb-58" target="oNJBq7v1mSASrG1cI6hb-59">
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-75" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="185" y="700" width="375" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-70" value="R&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;sup&gt;n&lt;/sup&gt;到R&lt;sup&gt;m&lt;/sup&gt;的线性变换&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-75">
+          <mxGeometry y="4.615384615384616" width="119.99999999999999" height="30.76923076923077" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-73" value="满射&amp;lt;--&amp;gt;A的列生成R&lt;sup&gt;m&lt;/sup&gt;&lt;br&gt;单射&amp;lt;--&amp;gt;A的列线性无关" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-75">
+          <mxGeometry x="194.99999999999997" width="179.99999999999997" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-72" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-75" source="oNJBq7v1mSASrG1cI6hb-70" target="oNJBq7v1mSASrG1cI6hb-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="199.99999999999997" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-78" value="单位矩阵" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="790" width="69.33333333333333" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-81" value="行变换" style="rounded=0;whiteSpace=wrap;html=1;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="244" y="795" width="69.33333333333333" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-80" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;elbow=vertical;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oNJBq7v1mSASrG1cI6hb-78" target="oNJBq7v1mSASrG1cI6hb-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255.55555555555554" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-82" value="可逆矩阵" style="ellipse;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="359.55555555555554" y="795" width="69.33333333333333" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-83" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;elbow=vertical;" edge="1" parent="1" source="oNJBq7v1mSASrG1cI6hb-81" target="oNJBq7v1mSASrG1cI6hb-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-58" value="映射" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="520" width="90" height="40" as="geometry" />
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-84" value="矩阵" style="ellipse;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="475.1111111111111" y="795" width="69.33333333333333" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-63" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="1" source="oNJBq7v1mSASrG1cI6hb-59" target="oNJBq7v1mSASrG1cI6hb-62">
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-85" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;elbow=vertical;" edge="1" parent="1" source="oNJBq7v1mSASrG1cI6hb-82" target="oNJBq7v1mSASrG1cI6hb-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-65" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="1" source="oNJBq7v1mSASrG1cI6hb-59" target="oNJBq7v1mSASrG1cI6hb-64">
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-86" value="加法&lt;br&gt;标量乘&lt;br&gt;矩阵乘积" style="whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="590.67" y="787.5" width="109.33" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-87" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;elbow=vertical;" edge="1" parent="1" source="oNJBq7v1mSASrG1cI6hb-84" target="oNJBq7v1mSASrG1cI6hb-86">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-59" value="线性变换" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="520" width="90" height="40" as="geometry" />
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-93" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="209.32999999999998" y="880" width="381.3400000000001" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-69" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="1" source="oNJBq7v1mSASrG1cI6hb-62" target="oNJBq7v1mSASrG1cI6hb-68">
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-89" value="n*n矩阵" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-93">
+          <mxGeometry y="70" width="87.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-90" value="&lt;div class=&quot;mind-clipboard&quot;&gt;1 可逆&lt;div&gt;2 等价于单位矩阵&lt;/div&gt;&lt;div&gt;3 有n个主元位置&lt;/div&gt;&lt;div&gt;4 Ax=0 仅有0解&lt;/div&gt;&lt;div&gt;5 A的列线性无关&lt;/div&gt;&lt;div&gt;6 x-&amp;gt;Ax 是单射&lt;/div&gt;&lt;div&gt;7 对任意b, Ax=b 至少有一个解&lt;/div&gt;&lt;div&gt;8 A的列生成Rn&lt;/div&gt;&lt;div&gt;9&amp;nbsp;x-&amp;gt;Ax 是满射&lt;/div&gt;&lt;div&gt;10 存在C使 CA = I&lt;/div&gt;&lt;div&gt;11 存在D使 DA = I&lt;/div&gt;&lt;div&gt;12 At可逆&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-93">
+          <mxGeometry x="191.34000000000003" width="190" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-91" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-93" source="oNJBq7v1mSASrG1cI6hb-89" target="oNJBq7v1mSASrG1cI6hb-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-62" value="矩阵变换" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="610" width="90" height="40" as="geometry" />
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-94" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="110" y="517.5" width="602.67" height="132.5" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-67" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="1" source="oNJBq7v1mSASrG1cI6hb-64" target="oNJBq7v1mSASrG1cI6hb-66">
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-58" value="映射" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-94">
+          <mxGeometry y="2.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-59" value="线性变换" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-94">
+          <mxGeometry x="170" y="2.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-60" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-94" source="oNJBq7v1mSASrG1cI6hb-58" target="oNJBq7v1mSASrG1cI6hb-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-64" value="线性变换的标准矩阵A" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="515" width="95" height="50" as="geometry" />
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-62" value="矩阵变换" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-94">
+          <mxGeometry x="170" y="92.5" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-66" value="[T(e1) T(e2) ... T(en)]" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="515" width="140" height="50" as="geometry" />
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-63" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-94" source="oNJBq7v1mSASrG1cI6hb-59" target="oNJBq7v1mSASrG1cI6hb-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-68" value="对向量的线性变换" style="whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="435" y="600" width="120" height="60" as="geometry" />
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-64" value="线性变换的标准矩阵A" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-94">
+          <mxGeometry x="314.44" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-65" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-94" source="oNJBq7v1mSASrG1cI6hb-59" target="oNJBq7v1mSASrG1cI6hb-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-66" value="[T(e1) T(e2) ... T(en)]" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-94">
+          <mxGeometry x="468.01" width="134.66" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-67" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-94" source="oNJBq7v1mSASrG1cI6hb-64" target="oNJBq7v1mSASrG1cI6hb-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-68" value="对向量的线性变换" style="whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-94">
+          <mxGeometry x="315" y="97.5" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-69" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-94" source="oNJBq7v1mSASrG1cI6hb-62" target="oNJBq7v1mSASrG1cI6hb-68">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
