@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-29T02:08:43.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZvvxTqxPYriITvm0vjR1" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-29T02:09:54.852Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="diuvHwmK5noguZxHTbny" version="20.5.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="11169" background="none" math="0" shadow="0">
       <root>
@@ -138,7 +138,7 @@
         <mxCell id="oNJBq7v1mSASrG1cI6hb-89" value="n*n矩阵" style="ellipse;whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-93">
           <mxGeometry y="70" width="87.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oNJBq7v1mSASrG1cI6hb-90" value="&lt;div class=&quot;mind-clipboard&quot;&gt;1 可逆&lt;div&gt;2 等价于单位矩阵&lt;/div&gt;&lt;div&gt;3 有n个主元位置&lt;/div&gt;&lt;div&gt;4 Ax=0 仅有0解&lt;/div&gt;&lt;div&gt;5 A的列线性无关&lt;/div&gt;&lt;div&gt;6 x-&amp;gt;Ax 是单射&lt;/div&gt;&lt;div&gt;7 对任意b, Ax=b 至少有一个解&lt;/div&gt;&lt;div&gt;8 A的列生成Rn&lt;/div&gt;&lt;div&gt;9&amp;nbsp;x-&amp;gt;Ax 是满射&lt;/div&gt;&lt;div&gt;10 存在C使 CA = I&lt;/div&gt;&lt;div&gt;11 存在D使 DA = I&lt;/div&gt;&lt;div&gt;12 A&lt;sup&gt;t&lt;/sup&gt;可逆&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-93">
+        <mxCell id="oNJBq7v1mSASrG1cI6hb-90" value="&lt;div class=&quot;mind-clipboard&quot;&gt;可逆&lt;div&gt;等价于单位矩阵&lt;/div&gt;&lt;div&gt;&amp;nbsp;有n个主元位置&lt;/div&gt;&lt;div&gt;Ax=0 仅有0解&lt;/div&gt;&lt;div&gt;A的列线性无关&lt;/div&gt;&lt;div&gt;x-&amp;gt;Ax 是单射&lt;/div&gt;&lt;div&gt;对任意b, Ax=b 至少有一个解&lt;/div&gt;&lt;div&gt;A的列生成Rn&lt;/div&gt;&lt;div&gt;x-&amp;gt;Ax 是满射&lt;/div&gt;&lt;div&gt;存在C使 CA = I&lt;/div&gt;&lt;div&gt;存在D使 DA = I&lt;/div&gt;&lt;div&gt;A&lt;sup&gt;t&lt;/sup&gt;可逆&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;glass=0;sketch=0;" vertex="1" parent="oNJBq7v1mSASrG1cI6hb-93">
           <mxGeometry x="191.34000000000003" width="190" height="180" as="geometry" />
         </mxCell>
         <mxCell id="oNJBq7v1mSASrG1cI6hb-91" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;elbow=vertical;" edge="1" parent="oNJBq7v1mSASrG1cI6hb-93" source="oNJBq7v1mSASrG1cI6hb-89" target="oNJBq7v1mSASrG1cI6hb-90">
