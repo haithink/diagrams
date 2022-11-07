@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T08:19:10.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YQX2zGc_-U8tqdW2_mfc" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T08:20:10.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="L7hwv5Y242hElG_0yKkG" version="20.5.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="11169" background="none" math="0" shadow="0">
       <root>
@@ -256,9 +256,14 @@
             <mxPoint x="300" y="1460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hJB4aa5CZlRUL_3Op0QT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hJB4aa5CZlRUL_3Op0QT-1" target="hJB4aa5CZlRUL_3Op0QT-12">
+        <mxCell id="hJB4aa5CZlRUL_3Op0QT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hJB4aa5CZlRUL_3Op0QT-1" target="hJB4aa5CZlRUL_3Op0QT-12">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hJB4aa5CZlRUL_3Op0QT-14" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hJB4aa5CZlRUL_3Op0QT-1" target="hJB4aa5CZlRUL_3Op0QT-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hJB4aa5CZlRUL_3Op0QT-1" value="行列式" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -272,6 +277,9 @@
         </mxCell>
         <mxCell id="hJB4aa5CZlRUL_3Op0QT-12" value="克拉默法则求解可逆Ax=b" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hJB4aa5CZlRUL_3Op0QT-15" value="伴随矩阵" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
