@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T03:17:45.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="CiVS1PcJkdn3fzepfyuD" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T03:46:09.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="sqei9OYhMD8fRB-TSTLA" version="20.5.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="11169" background="none" math="0" shadow="0">
       <root>
@@ -290,6 +290,9 @@
         <mxCell id="hJB4aa5CZlRUL_3Op0QT-1" value="行列式" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hJB4aa5CZlRUL_3Op0QT-35">
           <mxGeometry x="170" y="90" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="hJB4aa5CZlRUL_3Op0QT-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hJB4aa5CZlRUL_3Op0QT-35" source="hJB4aa5CZlRUL_3Op0QT-3" target="hJB4aa5CZlRUL_3Op0QT-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hJB4aa5CZlRUL_3Op0QT-3" value="余子式" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="hJB4aa5CZlRUL_3Op0QT-35">
           <mxGeometry x="350" y="90" width="120" height="80" as="geometry" />
         </mxCell>
@@ -311,6 +314,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="420" y="50" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hJB4aa5CZlRUL_3Op0QT-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="hJB4aa5CZlRUL_3Op0QT-35" source="hJB4aa5CZlRUL_3Op0QT-15" target="hJB4aa5CZlRUL_3Op0QT-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hJB4aa5CZlRUL_3Op0QT-15" value="伴随矩阵" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="hJB4aa5CZlRUL_3Op0QT-35">
           <mxGeometry x="350" y="200" width="120" height="60" as="geometry" />
