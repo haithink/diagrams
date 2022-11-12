@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-12T07:40:17.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PU8xs5xf03Mwj7F2hRKQ" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-12T07:51:53.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pTsJhCXMrJgISK0McRP-" version="20.5.3" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="11169" background="none" math="0" shadow="0">
       <root>
@@ -346,17 +346,35 @@
         <mxCell id="xc8-nuTMSVaucmzq5K6E-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="xc8-nuTMSVaucmzq5K6E-1" target="xc8-nuTMSVaucmzq5K6E-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xc8-nuTMSVaucmzq5K6E-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="xc8-nuTMSVaucmzq5K6E-1" target="xc8-nuTMSVaucmzq5K6E-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xc8-nuTMSVaucmzq5K6E-1" value="对称矩阵" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="2130" width="120" height="80" as="geometry" />
+          <mxGeometry x="350" y="2180" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xc8-nuTMSVaucmzq5K6E-2" value="不同特征空间特征向量正交" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="477.5" y="2145" width="80" height="50" as="geometry" />
+          <mxGeometry x="547.5" y="2195" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xc8-nuTMSVaucmzq5K6E-4" value="正交对角化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="2260" width="100" height="40" as="geometry" />
+          <mxGeometry x="360" y="2080" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="xc8-nuTMSVaucmzq5K6E-6" value="谱分解" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="2130" width="120" height="80" as="geometry" />
+          <mxGeometry x="150" y="2180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xc8-nuTMSVaucmzq5K6E-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="xc8-nuTMSVaucmzq5K6E-8" target="xc8-nuTMSVaucmzq5K6E-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xc8-nuTMSVaucmzq5K6E-8" value="二次型" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="2310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xc8-nuTMSVaucmzq5K6E-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="xc8-nuTMSVaucmzq5K6E-10" target="xc8-nuTMSVaucmzq5K6E-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xc8-nuTMSVaucmzq5K6E-10" value="变量代换" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="2320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xc8-nuTMSVaucmzq5K6E-12" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
