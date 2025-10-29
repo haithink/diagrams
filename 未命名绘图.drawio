@@ -45,8 +45,68 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9anuRTshjhzPciP1hx0j-0" target="9anuRTshjhzPciP1hx0j-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9anuRTshjhzPciP1hx0j-0" value="启动建图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="500" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9anuRTshjhzPciP1hx0j-1" target="9anuRTshjhzPciP1hx0j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-1" value="VR头显采集双目图像数据和IMU数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9anuRTshjhzPciP1hx0j-3" target="9anuRTshjhzPciP1hx0j-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-3" value="wifi传输到服务器" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-5" value="服务器求解位姿、建立点云" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="500" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9anuRTshjhzPciP1hx0j-7" target="9anuRTshjhzPciP1hx0j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-7" value="服务器启动重定位模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9anuRTshjhzPciP1hx0j-8" target="9anuRTshjhzPciP1hx0j-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-8" value="VR头显wifi向服务器传入当前双目图像" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9anuRTshjhzPciP1hx0j-10" target="9anuRTshjhzPciP1hx0j-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-10" value="服务器利用图像进行重定位" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9anuRTshjhzPciP1hx0j-12" target="9anuRTshjhzPciP1hx0j-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9anuRTshjhzPciP1hx0j-12" target="9anuRTshjhzPciP1hx0j-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="1000" />
+              <mxPoint x="320" y="670" />
+              <mxPoint x="240" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-12" value="重定位是否成功" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9anuRTshjhzPciP1hx0j-14" target="9anuRTshjhzPciP1hx0j-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-14" value="将重定位位姿传回VR设备" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9anuRTshjhzPciP1hx0j-18" value="基于重定位位姿进行后续跟踪实时位姿" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
